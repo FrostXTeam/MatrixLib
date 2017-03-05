@@ -1,6 +1,15 @@
-<h1> MatrixLib </h1>
-<h4> FrostX matrix library (language core) </h4>
-<br>
-Creator and Proprietor:
-Lucas Barbosa
+MatrixLib
+***FrostX matrix library (language core)***
+
+------------------------//------------------------
+
+Creators and Proprietors:
+- Lucas Barbosa
+
+**System Overview
+
+
+**Software Architecture
+
+**System Requirements
 
