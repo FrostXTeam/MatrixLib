@@ -1,5 +1,7 @@
 #include <iostream>
 #include <fstream>
+#include <sstream>
+#include <streambuf>
 #include <vector>
 #include <cstdlib>
 
@@ -16,8 +18,10 @@ int main(int argc, char *argv[])
 	{
 		
 		std::string *input_file = new std::string(argv[1]);
-		openfile((*input_file));
-		// solve issue: unable to read everything in a file preceding whitspace
+		std::string *frostx_syntax = new std::string();
+		*frostx_syntax = openfile<std::string>((*input_file));
+		
+		std::cout << (*frostx_syntax) << std::endl;
 		
 	} catch (...)
   {

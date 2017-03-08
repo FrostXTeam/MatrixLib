@@ -25,5 +25,5 @@ wipe: $(MAIN_SRC)
 # Custom targets and receipes
 
 test: $(MAIN_O)
-	# For stub for the lexer | Lucas | MatrixLib 
+	# Stub for the lexer | Lucas | MatrixLib 
 	./$(MAIN_O) test.lang
