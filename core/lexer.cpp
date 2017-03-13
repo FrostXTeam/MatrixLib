@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 		std::string *frostx_syntax = new std::string();
 		*frostx_syntax = openfile<std::string>((*input_file));
 		
-		std::cout << (*frostx_syntax) << std::endl;
+		std::cout << (*frostx_syntax);
 		
 	} catch (...)
   {
